@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    /* CHANGED: Background to Airtel red */
     background: #ed1c24;
     display: flex;
     justify-content: center;
@@ -13,7 +12,6 @@ body {
 .card {
     max-width: 400px;
     margin: 40px auto;
-    /* CHANGED: Card background to white for contrast */
     background: white;
     border-radius: 12px;
     padding: 20px;
@@ -22,7 +20,6 @@ body {
 }
 
 h2 {
-    /* CHANGED: Title color to a darker red */
     color: #b71c1c;
     margin-top: 0;
 }
@@ -33,7 +30,6 @@ h2 {
 }
 
 .amount-box {
-    /* CHANGED: Background to a light red/pink tone */
     background: #ffebee;
     padding: 15px;
     border-radius: 10px;
@@ -41,7 +37,6 @@ h2 {
 }
 
 .amount-box h1 {
-    /* CHANGED: Amount color to match the title */
     color: #b71c1c;
     margin: 5px 0;
     font-size: 2em;
@@ -60,7 +55,6 @@ button {
     width: 100%;
     padding: 14px;
     margin-top: 15px;
-    /* CHANGED: Button background to Airtel red */
     background: #ed1c24;
     color: white;
     border: none;
@@ -70,7 +64,6 @@ button {
     transition: background-color 0.3s ease;
 }
 
-/* CHANGED: Button hover to a darker red */
 button:hover {
     background: #c41e3a;
 }
