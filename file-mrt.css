@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* CHANGED: Background to Airtel red */
+    background: #ed1c24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    max-width: 400px;
+    margin: 40px auto;
+    /* CHANGED: Card background to white for contrast */
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    /* CHANGED: Title color to a darker red */
+    color: #b71c1c;
+    margin-top: 0;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #444;
+}
+
+.amount-box {
+    /* CHANGED: Background to a light red/pink tone */
+    background: #ffebee;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.amount-box h1 {
+    /* CHANGED: Amount color to match the title */
+    color: #b71c1c;
+    margin: 5px 0;
+    font-size: 2em;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    /* CHANGED: Button background to Airtel red */
+    background: #ed1c24;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* CHANGED: Button hover to a darker red */
+button:hover {
+    background: #c41e3a;
+}
+
+.note {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+}
+
+footer {
+    font-size: 11px;
+    color: #aaa;
+    margin-top: 15px;
+}
